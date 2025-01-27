@@ -1,3 +1,34 @@
+SG-1 bAItman implementation
+ Clone the Repo and Setup
+Clone the repository:
+
+bash
+Copy
+git clone https://github.com/sg-1validator/benai.git baitmanOS
+cd baitmanOS
+
+Copy the .env file:
+
+cp .env.example .env
+Install dependencies:
+
+pnpm install
+Build the project:
+
+pnpm build
+
+2. Configure the baitman.json Character
+Place baitman.json in the characters folder:
+
+pnpm start --characters="characters/baitman.json"
+Start the client:
+
+
+pnpm start:client
+Visit the URL outputted (e.g., http://localhost:5173) to test the bot.
+
+
+
 # Eliza 🤖
 
 <div align="center">
